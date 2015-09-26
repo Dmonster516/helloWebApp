@@ -1,0 +1,7 @@
+{% extends 'layouts/base.html' %}
+{% block title %} Homepage - {{block.super }}{% endblock %}
+{% block content %}
+  <h1> Hi there </h1>
+  <p>There are {{number}} dog{{ number|pluralize}}! 
+  </p>
+{% endblock %}
